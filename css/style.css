@@ -1,1 +1,28 @@
 /* TODO: Make it awesome */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+* {  text-align: center;}
+body {  background-color: #eee;  font-family: 'Playfair Display', serif;}
+body > :first-child {  background-color: #BC7A73;  color: #fff;  height: 50px;  margin-bottom: 30px;}
+body > :first-child h1 {  float: left;  padding: 15px;  font-size: 20px;}
+body > :first-child nav {  float: right;}
+.card header h1 {  font-size: 1.5em;  color: #BC7A73;  padding: 15px;  font-weight: bold;}
+.copy ol li {  text-align: center;  font-size: 1.3em;  line-height: 35px;  color: #BC7A73;}
+nav {  display: inline;}
+nav ul {  margin-top: 15px;}
+nav ul li {  display: inline;}
+nav ul li:nth-child(2) {  padding-right: 2px;}
+#itemCount {  float: right;  padding-right: 15px;}
+a {  color: #fff;  text-decoration: none;  padding: 17px;  transition: .350s;}
+main {  max-width: 960px;  margin: 0 auto;}
+main section:nth-child(1) {  margin-bottom: 30px;}
+fieldset {  border: 2px #BC7A73 solid;  border-radius: 5px;  padding: 10px;  padding-bottom: 20px;  height: 50px;}
+fieldset legend {  color: #BC7A73;  font-size: 30px;}
+select {  width: 100px;  font-size: 15px;}input {  width: 100px;  padding: 4px 4px;  border-radius: 5px;}
+fieldset input:nth-child(4) {  border: none;  background: #BC7A73;  padding: 4px 4px;  color: #fff;  font-size: 14px;  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);}
+#cart {  margin: 0 auto;  border: 1px solid #BC7A73;  padding: 30px;}
+th, td {  padding: 30px;}
+footer {  background-color: #E1B8B2;  color: #fff;  height: 75px;  position: absolute;  bottom: 0;  width: 100%;}
+footer p {  padding: 30px;}
+
+
